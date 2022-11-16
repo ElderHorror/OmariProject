@@ -1,0 +1,213 @@
+body {
+  background-image: url("/LandingPage/Images/firstLandingBackground.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 25%;
+  background-color: black;
+  display: flex;
+  font-family: "Source Code Pro", monospace;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+}
+
+.txtDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 5px;
+  margin: 230px 0px 0px 0px;
+}
+
+.txt1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+  font-size: 35px;
+  padding: 0px;
+  border: 0px;
+  letter-spacing: -0.05em;
+}
+
+.txt2 {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  font-size: 19px;
+  letter-spacing: -0.05em;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0.5) -37.29%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  margin-top: 210px;
+  margin-bottom: 50px;
+}
+
+.navLogo {
+  padding-left: 2%;
+  padding: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  padding-right: 30px;
+  font-size: 13px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  letter-spacing: -0.05em;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.misHeading {
+  margin-top: 80px;
+  font-weight: 600;
+  font-size: 22px;
+  background: linear-gradient(
+    102.48deg,
+    rgba(255, 255, 255, 0.5) 40.94%,
+    #ffffff 93.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.05em;
+}
+
+.misTxt {
+  display: inline;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 80px;
+  font-weight: 500;
+  background: linear-gradient(
+    102.48deg,
+    rgba(255, 255, 255, 0.5) 40.94%,
+    #ffffff 93.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.05em;
+}
+
+.horizontalRule {
+  width: 80vw;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1100px;
+}
+
+.contentTxt1 {
+  padding-bottom: 20px;
+  background: linear-gradient(
+    102.48deg,
+    rgba(255, 255, 255, 0.5) 40.94%,
+    #ffffff 93.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contentTxt2 {
+  line-height: 25px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.landingImage {
+  width: 95%;
+  margin-bottom: 70px;
+}
+
+.Article {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 88%;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.articleImage {
+  height: 400px;
+  padding-right: 50px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.articleDiv {
+  padding-top: 70px;
+  width: 59%;
+}
+
+.articleDate {
+  padding-bottom: 0px;
+  margin-bottom: 7px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.articleTitle {
+  padding: 0px;
+  padding-bottom: 11px;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.articleContent {
+  padding-bottom: 10px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 200;
+}
+
+.readMore {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.articleAuthor {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.copyrightTxt {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.05em;
+  background: linear-gradient(
+    102.48deg,
+    rgba(255, 255, 255, 0.5) 40.94%,
+    #ffffff 93.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 50px;
+}
