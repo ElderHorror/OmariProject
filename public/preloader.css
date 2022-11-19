@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  font-family: 'Source Code Pro', monospace;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-image: url('Omari.png');
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loaderTxtDiv {
+  padding-top: 0.5%;
+}
+
+.loader {
+  border: 4px solid #7e7d7d;
+  border-top: 4px solid white;
+  border-radius: 50%;
+  width: 95px;
+  height: 95px;
+  animation: spin 2.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.txtDiv {
+  display: flex;
+  flex-direction: column;
+  line-height: 8px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 2%;
+}
+
+.txt1 {
+  color: grey;
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.txt2 {
+  color: white;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 900px){
+
+  .txt1{
+    font-size: 15px;
+  }
+
+  .txt2{
+    font-size: 16px;
+  }
+}

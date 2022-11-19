@@ -1,0 +1,494 @@
+body {
+  background-image: url("firstLandingBackground.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 25%;
+  background-color: black;
+  display: flex;
+  font-family: "Source Code Pro", monospace;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+}
+
+.drop {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.navbar {
+  display: none;
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+}
+
+.navbarLogo {
+  height: 25px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.txtDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 5px;
+  margin: 230px 0px 0px 0px;
+}
+
+.txt1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+  font-size: 35px;
+  padding: 0px;
+  border: 0px;
+  letter-spacing: -0.05em;
+}
+
+.txt2 {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  font-size: 19px;
+  letter-spacing: -0.05em;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 0, 0, 0.5) -37.29%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  margin-top: 210px;
+  margin-bottom: 50px;
+}
+
+.navLogo {
+  padding-left: 2%;
+  padding: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  padding-right: 30px;
+  font-size: 13px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  letter-spacing: -0.05em;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.misHeading {
+  margin-top: 80px;
+  font-weight: 600;
+  font-size: 22px;
+  background: linear-gradient(
+    102.48deg,
+    rgba(255, 255, 255, 0.5) 40.94%,
+    #ffffff 93.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.05em;
+}
+
+.misTxt {
+  display: inline;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 80px;
+  font-weight: 500;
+  background: linear-gradient(
+    102.48deg,
+    rgba(255, 255, 255, 0.5) 40.94%,
+    #ffffff 93.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.05em;
+}
+
+.horizontalRule {
+  width: 80vw;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1100px;
+}
+
+.contentTxt1 {
+  padding-bottom: 20px;
+  background: linear-gradient(
+    102.48deg,
+    rgba(255, 255, 255, 0.5) 40.94%,
+    #ffffff 93.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contentTxt2 {
+  line-height: 25px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.landingImage {
+  width: 95%;
+  margin-bottom: 70px;
+}
+
+.Article {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 88%;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.articleImage {
+  height: 400px;
+  padding-right: 50px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.articleDiv {
+  padding-top: 70px;
+  width: 59%;
+}
+
+.articleDate {
+  padding-bottom: 0px;
+  margin-bottom: 7px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.articleTitle {
+  padding: 0px;
+  padding-bottom: 11px;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.articleContent {
+  padding-bottom: 10px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 200;
+}
+
+.readMore {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.articleAuthor {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.copyrightTxt {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.05em;
+  background: linear-gradient(
+    102.48deg,
+    rgba(255, 255, 255, 0.5) 40.94%,
+    #ffffff 93.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .txtDiv {
+    margin: 30% 0px 0px 0px;
+  }
+
+  .txt1 {
+    font-size: 25px;
+  }
+
+  .txt2 {
+    font-size: 14px;
+  }
+
+  .navbarLogo {
+    position: relative;
+    left: 70vw;
+  }
+
+  body {
+    background-size: 100% 12%;
+  }
+
+  .navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  .navBar {
+    display: none;
+  }
+
+  .misHeading {
+    margin-top: 210px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 500px) {
+  .txtDiv {
+    margin-top: 15%;
+  }
+
+  .misHeading {
+    margin-top: 180px;
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+
+  .misTxt {
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .contentIllustration {
+    width: 32%;
+  }
+
+  .contentTxt {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .Article {
+    flex-direction: column;
+  }
+
+  .articleImage {
+    height: 500px;
+    padding-right: 30px;
+  }
+
+  .articleDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    padding-left: 5%;
+  }
+
+  .copyrightTxt {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 500px) {
+  .navbarLogo {
+    position: relative;
+    left: 80vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .txtDiv {
+    margin-top: 25%;
+  }
+
+  .txt1 {
+    font-size: 18px;
+  }
+
+  .txt2 {
+    font-size: 9px;
+  }
+
+  body {
+    background-size: 100% 12%;
+  }
+
+  .misHeading {
+    margin-top: 130px;
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+
+  .misTxt {
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .contentIllustration {
+    width: 32%;
+  }
+
+  .contentTxt {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .contentTxt1 {
+    font-size: 18px;
+    padding-bottom: 0px;
+  }
+
+  .contentTxt2 {
+    width: 80%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 22px;
+  }
+
+  .landingImage {
+    padding-left: 3.5%;
+    margin-bottom: 50px;
+  }
+
+  .Article {
+    flex-direction: column;
+  }
+
+  .articleImage {
+    height: 300px;
+    padding-right: 30px;
+  }
+
+  .articleDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    padding-left: 5%;
+  }
+
+  .copyrightTxt {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .txt1 {
+    font-size: 15px;
+  }
+
+  .txt2 {
+    font-size: 10px;
+  }
+
+  body {
+    background-size: 100% 13%;
+  }
+}
