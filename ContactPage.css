@@ -1,0 +1,226 @@
+body {
+  background-color: black;
+  font-family: "Source Code Pro", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0px;
+}
+
+
+a {
+  padding-right: 30px;
+  font-size: 13px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  letter-spacing: -0.05em;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.contactUsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  width: 1100px;
+  height: 550px;
+  border-radius: 15px;
+}
+
+.ContentDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactUsTitle {
+  background: linear-gradient(
+    102.48deg,
+    rgba(255, 255, 255, 0.5) 40.94%,
+    #ffffff 93.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: -0.05em;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contactUsContent {
+  background: linear-gradient(
+    102.48deg,
+    rgba(255, 255, 255, 0.5) 40.94%,
+    #ffffff 93.93%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  font-size: 19px;
+  letter-spacing: -0.05em;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.socialLinks {
+  padding: 40px 0px;
+  margin-left: 20px;
+}
+
+a {
+  padding-right: 23px;
+}
+
+.allInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputA,
+.inputB {
+  width: 350px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: black;
+  border: 1px solid black;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.inputA {
+  margin-right: 200px;
+}
+
+.inputC {
+  margin-top: 30px;
+  width: 1000px;
+  height: 50px;
+  padding-left: 20px;
+  padding-bottom: 120px;
+  border-radius: 10px;
+  background-color: black;
+  border: 1px solid black;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+}
+
+.Send {
+  background: linear-gradient(
+    102.48deg,
+    rgba(255, 255, 255, 0.5) 40.94%,
+    #ffffff 93.93%
+  );
+  border-radius: 14px;
+  position: absolute;
+  top: 70%;
+  right: 14vw;
+  border: 1px solid black;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+  font-style: normal;
+  height: 45px;
+  width: 95px;
+  letter-spacing: -0.05em;
+  font-size: 15px;
+}
+
+.Send:hover {
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+}
+
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(270deg,
+      rgba(0, 0, 0, 0.5) -37.29%,
+      rgba(0, 0, 0, 0.1) 100%);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.navLogo {
+  padding-left: 2%;
+  padding: 20px;
+  height: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .contactUsDiv{
+    width: 90%;
+    height: auto;
+  }
+
+  .ContentDiv{
+    width: 80%;
+    height: auto;
+    margin-top: 20%;
+  } 
+
+  .contactUsTitle{
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  .contactUsContent{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .inputs{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .inputA,.inputB{
+    width: 50%;
+    margin: 0px;
+  }
+
+  .inputA{
+    margin-bottom: 25px;
+  }
+
+  .inputC{
+    width: 80%;
+    margin-left: 7%;
+  }
+
+  .allInputs{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .Send{
+    display: none;
+  }
+
+
+}

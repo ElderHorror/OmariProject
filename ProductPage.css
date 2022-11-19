@@ -1,0 +1,576 @@
+body {
+  background-image: url("BackgroundImage.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 19.5%;
+  background-color: black;
+  font-family: "Source Code Pro", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+}
+
+a {
+  padding-right: 30px;
+  font-size: 13px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  letter-spacing: -0.05em;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.drop {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  display: none;
+}
+
+.navbarLogo {
+  height: 25px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.txtDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 5px;
+  margin: 230px 0px 0px 0px;
+}
+
+.txt1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+  font-size: 35px;
+  padding: 0px;
+  border: 0px;
+  letter-spacing: -0.05em;
+}
+
+.txt2 {
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: -0.05em;
+}
+
+.SAAM {
+  color: white;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(270deg,
+      rgba(0, 0, 0, 0.5) -37.29%,
+      rgba(0, 0, 0, 0.1) 100%);
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.navLogo {
+  padding-left: 2%;
+  padding: 20px;
+}
+
+.contentA {
+  background: linear-gradient(102.48deg,
+      rgba(255, 255, 255, 0.5) 40.94%,
+      #ffffff 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 50px 0px;
+  font-weight: 600;
+  font-size: 19px;
+  letter-spacing: -0.05em;
+}
+
+.horizontalRule {
+  width: 80vw;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.misDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.misTitle {
+  background: linear-gradient(102.48deg,
+      rgba(255, 255, 255, 0.5) 40.94%,
+      #ffffff 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 19px;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+}
+
+.misContent {
+  background: linear-gradient(102.48deg,
+      rgba(255, 255, 255, 0.5) 40.94%,
+      #ffffff 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 18px;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+}
+
+.IllustrationDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.IllustrationImageDiv {
+  display: flex;
+  flex-direction: row;
+  padding-right: 300px;
+}
+
+.IllustrationImagePointer {
+  position: absolute;
+  bottom: -133%;
+  left: 28%;
+}
+
+.IllustrationPointerB{
+  display: none;
+}
+
+.ContentDiv {
+  width: 30%;
+}
+
+.ContentB {
+  letter-spacing: -0.05em;
+  background: linear-gradient(102.48deg,
+      rgba(255, 255, 255, 0.5) 40.94%,
+      #ffffff 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.ContentC {
+  letter-spacing: -0.05em;
+  background: linear-gradient(102.48deg,
+      rgba(255, 255, 255, 0.5) 40.94%,
+      #ffffff 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+th,
+td {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: start;
+  letter-spacing: -0.05em;
+  padding-left: 30px;
+  padding-right: 40px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+table {
+  border-collapse: collapse;
+  width: 1100px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 50px 0px;
+  box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+}
+
+tr {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+td {
+  border-top: 1px solid rgba(255, 255, 255, 0.219);
+}
+
+.heading {
+  opacity: 0.9;
+}
+
+.top-left {
+  border-top-left-radius: 10px;
+}
+
+.top-right {
+  border-top-right-radius: 10px;
+}
+
+.bottom-left {
+  border-bottom-left-radius: 10px;
+}
+
+.bottom-right {
+  border-bottom-right-radius: 10px;
+}
+
+.TeamIllustration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.TeamLogo {
+  padding-top: 40px;
+  padding-right: 70px;
+}
+
+.functionsDiv {
+  width: 400px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.functionsTitle {
+  letter-spacing: -0.05em;
+  background: linear-gradient(102.48deg,
+      rgba(255, 255, 255, 0.5) 40.94%,
+      #ffffff 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.functionsContent {
+  letter-spacing: -0.05em;
+  background: linear-gradient(102.48deg,
+      rgba(255, 255, 255, 0.5) 40.94%,
+      #ffffff 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.DiscussIllustrationDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.DiscussIllustrationImage {
+  padding-top: 40px;
+  padding-right: 250px;
+}
+
+.functions2Div {
+  width: 400px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.functions2Title {
+  letter-spacing: -0.05em;
+  background: linear-gradient(102.48deg,
+      rgba(255, 255, 255, 0.5) 40.94%,
+      #ffffff 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.functions2Content {
+  letter-spacing: -0.05em;
+  background: linear-gradient(102.48deg,
+      rgba(255, 255, 255, 0.5) 40.94%,
+      #ffffff 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.comingSoon {
+  letter-spacing: -0.05em;
+  background: linear-gradient(102.48deg,
+      rgba(255, 255, 255, 0.5) 40.94%,
+      #ffffff 93.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 700px){
+  body{
+    background-size: 100vw 14%;
+  }
+  
+  .navbar{
+    display: flex;
+  }
+
+  .navbarLogo{
+    margin-left: 70vw;
+  }
+
+  .navBar{
+    display: none;
+  }
+
+  .txtDiv{
+    margin-top: 15%;
+    margin-bottom: 20%;
+  }
+
+  .contentA{
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .misDiv{
+    margin: 60px 0px;
+  }
+
+  .misTitle{
+    font-size: 19px;
+    margin: 0px;
+    padding-bottom: 10px;
+  }
+
+  .misContent{
+    width: 80%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  
+  .IllustrationImagePointer{
+    display: none;
+  }
+
+  .IllustrationDiv{
+    flex-direction: column-reverse;
+    margin-bottom: 0px;
+    margin-top: 70px;
+  }
+
+  .ContentDiv{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+
+  .ContentB{
+    margin: 0px;
+    font-size: 19px;
+    padding-bottom: 10px;
+  }
+
+  .ContentC{
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    width: 90%;
+  }
+
+  .IllustrationImage{
+    display: none;
+  }
+  
+  .IllustrationImageDiv{
+    flex-direction: column;
+  }
+
+  .IllustrationPointerB{
+    display: block;
+  }
+
+  table{
+    display: none;
+  }
+
+  .TeamIllustration{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .TeamLogo{
+    width: 50%;
+    height: 50%;
+    padding-left: 13%;
+    padding-bottom: 50px;
+  }
+
+  .functionsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .functionsTitle{
+    font-size: 19px;
+    margin: 0px;
+    
+    }
+
+  .functionsContent{
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    width: 120%;
+  }
+
+  .DiscussIllustrationDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .DiscussIllustrationImage{
+    width: 50%;
+    height: 50%;
+    padding-left: 50%;
+    padding-bottom: 90px;
+  }
+
+  .functions2Div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+  }
+
+  .functions2Title{
+    font-size: 19px;
+    margin: 0px;
+  }
+
+  .functions2Content{
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    width: 120%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .functionsTitle{
+    width: 90%;
+    text-align: center;
+  }
+  
+  .functionsContent{
+    width: 90%;
+  }
+
+  .functions2Title{
+    width: 90%;
+    text-align: center;
+  }
+  
+  .functions2Content{
+    width: 90%;
+  }
+}
